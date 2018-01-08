@@ -15,8 +15,7 @@ p {
   background: url("https://photos.smugmug.com/photos/i-TWbWXS4/0/a145b243/O/i-TWbWXS4.png") repeat;
   min-height: calc(100vh - 100px);
   margin: 0;
-  padding-left: 7vw;
-  padding-right: 7vw; }
+  padding: 8px; }
   @media only screen and (max-width: 600px) {
     .photo_Container {
       margin-top: 0; } }
@@ -44,6 +43,18 @@ p {
     padding-left: 1.5px;
     padding-right: 1.5px;
     position: relative; }
+    @media only screen and (min-width: 1025px) {
+      .masonry .panel {
+        min-height: 16.26vw; } }
+    @media only screen and (max-width: 1024px) {
+      .masonry .panel {
+        min-height: 21.62vw; } }
+    @media only screen and (max-width: 800px) {
+      .masonry .panel {
+        min-height: 32.326vw; } }
+    @media only screen and (max-width: 600px) {
+      .masonry .panel {
+        min-height: 64.541vw; } }
     .masonry .panel .panel-image {
       overflow: hidden;
       width: 100%;
@@ -99,7 +110,6 @@ p {
   font-size: 1.0rem;
   display: inline-block;
   text-transform: uppercase;
-  margin: 20px;
   margin-left: 0px;
   justify-content: space-between;
   align-items: center;

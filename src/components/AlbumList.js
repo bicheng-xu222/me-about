@@ -3,7 +3,6 @@ import { Link } from "react-router"
 import ProgressiveImage from "react-progressive-image-loading";
 
 const AlbumList = ({ image, preview, title, url, showContent }) => {
-  console.log(preview);
   return (
 
     <div className="panel">

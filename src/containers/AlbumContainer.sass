@@ -14,8 +14,8 @@ p
   background: url("https://photos.smugmug.com/photos/i-TWbWXS4/0/a145b243/O/i-TWbWXS4.png") repeat
   min-height: calc(100vh - 100px)
   margin: 0
-  padding-left: 7vw
-  padding-right: 7vw
+  padding: 8px
+
   @media only screen and (max-width: 600px)
     margin-top: 0
 
@@ -40,6 +40,14 @@ p
     padding-left: 1.5px
     padding-right: 1.5px
     position: relative
+    @media only screen and (min-width: 1025px)
+      min-height: 16.26vw
+    @media only screen and (max-width: 1024px)
+      min-height: 21.62vw
+    @media only screen and (max-width: 800px)
+      min-height: 32.326vw
+    @media only screen and (max-width: 600px)
+      min-height: 64.541vw
 
     .panel-image
       overflow: hidden
@@ -99,7 +107,6 @@ p
   font-size: 1.0rem
   display: inline-block
   text-transform: uppercase
-  margin: 20px
   margin-left: 0px
   justify-content: space-between
   align-items: center

@@ -1,0 +1,19 @@
+#experience-section {
+  padding-bottom: 60px; }
+  #experience-section .overlay-wrapper {
+    padding-top: 50px;
+    background-image: url("https://uxxSam.github.io/img/bg-experience/experience-sm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); }
+  #experience-section .block-btn {
+    position: absolute !important;
+    bottom: 54px; }
+    #experience-section .block-btn img {
+      color: #f2f2f2;
+      fill: #f2f2f2; }
+      #experience-section .block-btn img :hover, #experience-section .block-btn img :focus {
+        color: #fff;
+        fill: #fff;
+        transition: all 0.3s ease;
+        transform: scale(1.1) translateY(-5px); }

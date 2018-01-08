@@ -1,0 +1,6 @@
+#portfolio-section .section-wrapper {
+  padding-top: 50px;
+  background-image: url("https://uxxsam.github.io/img/project-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); }

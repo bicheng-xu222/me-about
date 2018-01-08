@@ -1,0 +1,116 @@
+#services-section .overlay-wrapper {
+  padding-top: 50px;
+  background-image: url("https://uxxSam.github.io/img/interest-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
+
+#services-section a {
+  display: inline-block;
+  position: relative; }
+  #services-section a:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    border-width: 0 0 .5px;
+    border-style: solid;
+    border-color: #cbcbcb; }
+
+#services-section .services-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px; }
+  @media only screen and (max-width: 1000px) {
+    #services-section .services-wrapper {
+      padding: 0; } }
+
+#services-section .service-row {
+  width: 100%;
+  height: 50%; }
+  @media only screen and (max-width: 660px) {
+    #services-section .service-row {
+      height: auto; } }
+  #services-section .service-row:nth-of-type(odd) {
+    border-bottom: 1px solid rgba(242, 242, 242, 0.3); }
+    @media only screen and (max-width: 660px) {
+      #services-section .service-row:nth-of-type(odd) {
+        border: none; } }
+  #services-section .service-row:nth-of-type(even) .service-column {
+    padding-top: 40px; }
+    @media only screen and (max-width: 660px) {
+      #services-section .service-row:nth-of-type(even) .service-column {
+        padding-top: 20px; } }
+  #services-section .service-row .service-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+    white-space: nowrap; }
+    @media only screen and (max-width: 660px) {
+      #services-section .service-row .service-column {
+        display: block;
+        width: 100%;
+        border: none; } }
+    @media only screen and (max-width: 480px) {
+      #services-section .service-row .service-column {
+        padding: 20px 0; } }
+    #services-section .service-row .service-column:nth-of-type(even) {
+      border-left: 1px solid rgba(242, 242, 242, 0.3); }
+      @media only screen and (max-width: 660px) {
+        #services-section .service-row .service-column:nth-of-type(even) {
+          border: none; } }
+    #services-section .service-row .service-column .service-img {
+      width: 40px;
+      margin-right: 15px;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      top: -5px; }
+    #services-section .service-row .service-column .sprite {
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      top: -3px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%; }
+      @media only screen and (max-width: 400px) {
+        #services-section .service-row .service-column .sprite {
+          width: 35px;
+          height: 35px; } }
+      #services-section .service-row .service-column .sprite.webdev {
+        background-image: url("https://uxxsam.github.io/img/icons/html.png"); }
+      #services-section .service-row .service-column .sprite.ui {
+        background-image: url("https://uxxsam.github.io/img/icons/pencil.png");
+        background-size: 90%; }
+      #services-section .service-row .service-column .sprite.xd {
+        background-image: url("https://uxxsam.github.io/img/icons/ux-design.png"); }
+      #services-section .service-row .service-column .sprite.wit {
+        background-image: url("https://uxxsam.github.io/img/icons/internet.png");
+        background-size: 90%; }
+    #services-section .service-row .service-column .service-heading {
+      font-family: "Gotham", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      margin: 0 0 30px;
+      font-size: 20px;
+      display: inline-block; }
+      @media only screen and (max-width: 1170px) {
+        #services-section .service-row .service-column .service-heading {
+          font-size: 2vw; } }
+      @media only screen and (max-width: 660px) {
+        #services-section .service-row .service-column .service-heading {
+          font-size: 4vw; } }
+      @media only screen and (max-width: 440px) {
+        #services-section .service-row .service-column .service-heading {
+          font-size: 16px; } }
+    #services-section .service-row .service-column .service-text {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      white-space: initial; }

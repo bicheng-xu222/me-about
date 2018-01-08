@@ -1,0 +1,163 @@
+#skills-section .skills-flex-wrapper,
+#skills-section .flex-item,
+#skills-section .check-wrapper {
+  display: flex; }
+
+#skills-section .section-wrapper {
+  padding-top: 50px;
+  background-image: url("https://uxxSam.github.io/img/Seattle-skyline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.65); }
+
+#skills-section .skills-flex-wrapper {
+  font: 100 30px 'Whitney';
+  height: 17em;
+  flex-flow: column wrap; }
+  @media only screen and (max-width: 768px) {
+    #skills-section .skills-flex-wrapper {
+      display: block;
+      height: auto; } }
+  #skills-section .skills-flex-wrapper .skills-heading {
+    font-family: "Gotham", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5vw; }
+    @media only screen and (max-width: 768px) {
+      #skills-section .skills-flex-wrapper .skills-heading {
+        font-size: 18px; } }
+    #skills-section .skills-flex-wrapper .skills-heading .sprite {
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+      position: relative;
+      top: 7px;
+      display: inline-block;
+      vertical-align: text-bottom;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%; }
+      #skills-section .skills-flex-wrapper .skills-heading .sprite.dev {
+        background-image: url("../img/icons/settings.png"); }
+      #skills-section .skills-flex-wrapper .skills-heading .sprite.design {
+        background-image: url("../img/icons/design.png");
+        background-size: 90%; }
+      #skills-section .skills-flex-wrapper .skills-heading .sprite.tools {
+        background-image: url("../img/icons/repair-tools.png");
+        background-size: 90%; }
+      #skills-section .skills-flex-wrapper .skills-heading .sprite.knowledge {
+        background-image: url("../img/icons/light-bulb.png"); }
+  #skills-section .skills-flex-wrapper .flex-item {
+    flex: 0 0 auto;
+    min-height: 200px;
+    background: transparent; }
+    @media only screen and (max-width: 1170px) {
+      #skills-section .skills-flex-wrapper .flex-item {
+        padding-right: 0; } }
+    @media only screen and (max-width: 480px) {
+      #skills-section .skills-flex-wrapper .flex-item {
+        padding: 0; } }
+    @media only screen and (max-width: 440px) {
+      #skills-section .skills-flex-wrapper .flex-item {
+        display: block; } }
+    #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
+      width: 40%;
+      max-width: 400px;
+      min-height: 450px; }
+      @media only screen and (max-width: 1170px) {
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
+          width: 37%; } }
+      @media only screen and (max-width: 1000px) {
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
+          width: 45%; } }
+      @media only screen and (max-width: 768px) {
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
+          width: 100%;
+          min-height: 50px; } }
+    #skills-section .skills-flex-wrapper .flex-item:nth-child(2) {
+      width: 60%;
+      min-height: 151px; }
+      @media only screen and (max-width: 1000px) {
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(2) {
+          width: 55%; } }
+      @media only screen and (max-width: 768px) {
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(2) {
+          width: 100%; } }
+    #skills-section .skills-flex-wrapper .flex-item:nth-child(3) {
+      width: 60%; }
+      @media only screen and (max-width: 1000px) {
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(3) {
+          width: 55%; } }
+      @media only screen and (max-width: 768px) {
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(3) {
+          width: 100%; } }
+  #skills-section .skills-flex-wrapper .dev-wrapper {
+    display: block; }
+    #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
+      display: inline-block;
+      border: 1px solid rgba(255, 255, 255, 0.5) !important;
+      border-radius: 50%;
+      text-align: center;
+      margin: 10px 10px 10px 0;
+      padding: 0px;
+      width: 100px;
+      height: 100px;
+      line-height: 7;
+      font-size: 14px; }
+      @media only screen and (max-width: 1170px) {
+        #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
+          width: 80px;
+          height: 80px;
+          font-size: 14px;
+          line-height: 5.5;
+          margin: 5px 5px 5px 0; } }
+      @media only screen and (max-width: 768px) {
+        #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
+          width: 100px;
+          height: 100px;
+          line-height: 7;
+          margin: 1%; } }
+      @media only screen and (max-width: 480px) {
+        #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
+          width: 80px;
+          height: 80px;
+          line-height: 5.5; } }
+  #skills-section .skills-flex-wrapper .design-wrapper {
+    display: block; }
+    #skills-section .skills-flex-wrapper .design-wrapper .design-item {
+      display: inline-block;
+      margin: 10px; }
+      @media only screen and (max-width: 1170px) {
+        #skills-section .skills-flex-wrapper .design-wrapper .design-item {
+          margin: 10px 5px; } }
+      #skills-section .skills-flex-wrapper .design-wrapper .design-item .item-img {
+        height: 74px;
+        filter: grayscale(100%); }
+
+#skills-section .check-wrapper .tools-wrapper,
+#skills-section .check-wrapper .knowledge-wrapper {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  white-space: nowrap; }
+  @media only screen and (max-width: 440px) {
+    #skills-section .check-wrapper .tools-wrapper,
+    #skills-section .check-wrapper .knowledge-wrapper {
+      display: block;
+      width: 100%; } }
+  #skills-section .check-wrapper .tools-wrapper .list,
+  #skills-section .check-wrapper .knowledge-wrapper .list {
+    margin-top: 30px;
+    margin-left: 20px; }
+    #skills-section .check-wrapper .tools-wrapper .list .list-item,
+    #skills-section .check-wrapper .knowledge-wrapper .list .list-item {
+      margin: 10px 0;
+      font-size: 16px; }
+      #skills-section .check-wrapper .tools-wrapper .list .list-item .item-svg,
+      #skills-section .check-wrapper .knowledge-wrapper .list .list-item .item-svg {
+        margin-right: 10px;
+        width: 12px;
+        height: 12px;
+        color: #fff;
+        fill: #fff; }

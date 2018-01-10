@@ -50,9 +50,9 @@ class AlbumContainer extends PureComponent {
     if (!photos[0]) return null
     return (
       <div>
-      <div className="masonry container">
+      <div className="masonry_2 container">
         <MuiThemeProvider muiTheme={getMuiTheme()}>
-        <div className="album_title">
+        <div className="album_title_fullsize">
           <Link to="/photo" className="nav_link">
               <RaisedButton
                 icon={<FontAwesome

@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,400|Roboto");
 body {
   font-family: Raleway,Roboto,Helvetica,Arial,sans-serif !important;
-  background-color: white;
-  max-width: 100%;
-  overflow-x: hidden; }
+  background-color: white; }

@@ -10,7 +10,7 @@ p
   font-family: Raleway,Roboto,Helvetica,Arial,sans-serif !important
   min-height: calc(100vh - 100px)
   margin: 0
-  padding: 8px
+  padding: 2px
   @media only screen and (max-width: 600px)
     margin-top: 0
 
@@ -18,7 +18,6 @@ p
   background: url("https://photos.smugmug.com/photos/i-TWbWXS4/0/a145b243/O/i-TWbWXS4.png") repeat
   min-height: calc(100vh - 100px)
   margin: 0
-  padding: 8px
 
   @media only screen and (max-width: 600px)
     margin-top: 0
@@ -68,6 +67,7 @@ p
     width: 98vw
 
   .full-size-container
+    padding-top: 10vh
     display: inline-block
 
 .sm-tile-info
@@ -122,13 +122,29 @@ p
   @media only screen and (max-width: 600px)
     text-align: center
 
+.album_title_fullsize
+  position: absolute
+  font-size: 1.0rem
+  display: inline-block
+  text-transform: uppercase
+  margin-left: 0px
+  justify-content: space-between
+  align-items: center
+  font-weight: 100
+  padding-bottom: 0
+  width: 100vw
+  color: #000000
+  font: Raleway,Roboto,Helvetica,Arial,sans-serif
+  @media only screen and (max-width: 600px)
+    text-align: center
+
 .homeSign
   margin: 12px
   @media only screen and (min-width: 601px)
     float: left
 
 .chipStyle
-  margin: 12.5px !important
+  margin: 14px !important
   @media only screen and (min-width: 601px)
     float: left
   @media only screen and (max-width: 600px)
@@ -151,3 +167,52 @@ p
   margin: 0
   @media only screen and (max-width: 600px)
     margin-top: 0
+
+
+.masonry_2
+  column-count: 4
+  position: absolute
+  box-sizing: border-box
+  column-gap: 0
+  @media only screen and (max-width: 1024px)
+    column-count: 3
+  @media only screen and (max-width: 800px)
+    column-count: 2
+  @media only screen and (max-width: 600px)
+    column-count: 1
+  *
+    box-sizing: border-box
+
+  .panel
+    page-break-inside: avoid
+    break-inside: avoid
+    margin: 0
+    padding-left: 1.5px
+    padding-right: 1.5px
+    position: relative
+    @media only screen and (min-width: 1025px)
+      min-height: 16.26vw
+    @media only screen and (max-width: 1024px)
+      min-height: 21.62vw
+    @media only screen and (max-width: 800px)
+      min-height: 32.326vw
+    @media only screen and (max-width: 600px)
+      min-height: 64.541vw
+
+    .panel-image
+      overflow: hidden
+      width: 100%
+      padding: 0
+
+  .full-size-photo
+    page-break-inside: avoid
+    break-inside: avoid
+    margin: 0
+    padding: 1px
+    position: relative
+    height: 100vh
+    width: 98vw
+
+  .full-size-container
+    padding-top: 10vh
+    display: inline-block

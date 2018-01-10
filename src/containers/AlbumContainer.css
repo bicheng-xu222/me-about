@@ -1,3 +1,7 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
 p {
   font-family: Raleway,Roboto,Helvetica,Arial,sans-serif !important; }
 
@@ -22,7 +26,7 @@ p {
 
 .masonry {
   column-count: 4;
-  position: relative;
+  position: absolute;
   box-sizing: border-box;
   column-gap: 0; }
   @media only screen and (max-width: 1024px) {

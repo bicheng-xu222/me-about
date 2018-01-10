@@ -42,20 +42,6 @@ class AlbumContainer extends PureComponent {
   }
 
   render() {
-    const style = {
-      margin: 12,
-      float: 'left'
-    };
-    const styles = {
-      chip: {
-        margin: 12.5,
-        float: 'left'
-      },
-      wrapper: {
-        display: 'flex',
-        flexWrap: 'wrap',
-      },
-    };
     const { photos, currentAlbum } = this.props
     var FontAwesome = require('react-fontawesome')
     if (!currentAlbum || !photos) return null
@@ -73,11 +59,11 @@ class AlbumContainer extends PureComponent {
                               name='home'
                               style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
                       />}
-                style={style}
+                className="homeSign"
               />
           </Link>
           <Link to={`/photo/${this.props.params.albumKey}`}>
-          <Chip style={styles.chip} onClick={this.handleClick}>
+          <Chip className="chipStyle" onClick={this.handleClick}>
             <Avatar src={photos[0].preview} />
             {album_title}
           </Chip>

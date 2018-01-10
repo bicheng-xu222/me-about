@@ -43,20 +43,7 @@ class AlbumContainer extends PureComponent {
     }
 
     var FontAwesome = require('react-fontawesome')
-    const style = {
-      margin: 12,
-      float: 'left'
-    };
-    const styles = {
-      chip: {
-        margin: 12.5,
-        float: 'left'
-      },
-      wrapper: {
-        display: 'flex',
-        flexWrap: 'wrap',
-      },
-    };
+
     const { photos } = this.props
     const prevPage = `/photo/${this.props.params.albumKey}`;
     console.log(photos[0])
@@ -73,11 +60,14 @@ class AlbumContainer extends PureComponent {
                               name='home'
                               style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
                       />}
-                style={style}
+                className="homeSign"
               />
           </Link>
           <Link to={prevPage}>
-          <Chip style={styles.chip} onClick={handleClick}>
+          <Chip
+            className="chipStyle"
+            onClick={handleClick}
+            >
             <Avatar src={photos[0].preview} />
             {photos[0].title}
           </Chip>

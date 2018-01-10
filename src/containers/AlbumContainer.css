@@ -122,6 +122,24 @@ p {
   width: 100vw;
   color: #000000;
   font: Raleway,Roboto,Helvetica,Arial,sans-serif; }
+  @media only screen and (max-width: 600px) {
+    .album_title {
+      text-align: center; } }
+
+.homeSign {
+  margin: 12px; }
+  @media only screen and (min-width: 601px) {
+    .homeSign {
+      float: left; } }
+
+.chipStyle {
+  margin: 12.5px !important; }
+  @media only screen and (min-width: 601px) {
+    .chipStyle {
+      float: left; } }
+  @media only screen and (max-width: 600px) {
+    .chipStyle {
+      margin: auto !important; } }
 
 .nav_link {
   color: inherit;
